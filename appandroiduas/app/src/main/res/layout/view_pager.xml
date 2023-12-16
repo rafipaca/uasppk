@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="20dp"
+    android:background="@color/background"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgViewPager"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:adjustViewBounds="true"
+        android:layout_gravity="center"
+        android:src="@drawable/onboard_1"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/txtTitleViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/primaryText"
+        android:text="lorem10"
+        android:layout_marginBottom="16dp"
+        android:gravity="center_horizontal"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/txtDescViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:textAlignment="center"
+        android:text="{Ini adalah teks untuk onboard activity}"
+        android:textSize="14sp"/>
+
+</LinearLayout>
